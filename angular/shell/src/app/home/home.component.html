@@ -1,0 +1,19 @@
+<div class="home-container">
+  <h1>Welcome to The Final Fantasy PSX Resource Library!</h1>
+  <h4>Please select a game below to learn more!</h4>
+</div>
+<mat-card class="game-card" *ngFor="let game of games">
+  <mat-card-header>
+    <div mat-card-avatar class="example-header-image"></div>
+    <mat-card-title>{{game?.name}}</mat-card-title>
+  </mat-card-header>
+  <img mat-card-image [src]="game?.image" alt="Logo for {{game?.name}}">
+  <mat-card-content>
+    <p>
+      {{game?.description}}
+    </p>
+  </mat-card-content>
+  <mat-card-actions>
+    <button mat-flat-button color="accent" [routerLink]="game?.link">Primary</button>
+  </mat-card-actions>
+</mat-card>

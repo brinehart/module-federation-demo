@@ -1,0 +1,21 @@
+.home-container {
+  padding-top: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 3rem;
+  color: #002a32;
+}
+
+.game-card {
+  width: 17vw;
+  margin: 20px;
+}
+
+button {
+  width: 100%;
+}
