@@ -19,6 +19,19 @@ export class HomeComponent implements OnInit {
         and Cloud's nemesis Sephiroth, and discovers a reason to fight for a cause other than his own.`,
       link: 'vii',
       image: '/assets/images/logos/FFVII_logo.png'
+    },
+    {
+      name: 'Final Fantasy VIII',
+      description: `Final Fantasy VIII is the eighth main installment in the Final Fantasy series, developed and
+      published by Squaresoft. It was released in February 1999 for the PlayStation. Final Fantasy VIII strives for
+      thematic combination of fantasy and realism. It was the first Final Fantasy game to have realistically proportioned
+      characters—a departure from the super deformed designs used in the previous titles. The game locations were designed
+      to resemble real world locations, rental cars and trains are used for in-game travel instead of fantasy-like vehicles,
+      and to enhance the feeling of realism, motion capture technology was used to give the characters lifelike movements.
+      Different nations and factions in Final Fantasy VIII have their own flags, their designs based on the country/group's
+      history and culture.`,
+      link: 'viii',
+      image: '/assets/images/logos/FFVIII_logo.png'
     }
   ];
 

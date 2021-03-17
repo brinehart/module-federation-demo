@@ -11,11 +11,28 @@ h1 {
   color: #002a32;
 }
 
+.game-cards {
+  display: flex;
+  .mat-card-image {
+    height: 200px;
+  }
+  .mat-card-header {
+    display: flex;
+    justify-content: center;
+  }
+  .mat-card-content {
+    max-height: 29vh;
+    overflow: hidden;
+  }
+}
+
 .game-card {
   width: 17vw;
   margin: 20px;
 }
 
 button {
+  display: flex;
+  justify-content: center;
   width: 100%;
 }
