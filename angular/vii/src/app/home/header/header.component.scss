@@ -1,0 +1,13 @@
+.secondary-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 8.5vh;
+  h1 {
+    padding-left: 20px;
+  }
+}
+
+.secondary-header > h1, .secondary-header > img {
+  cursor: pointer;
+}

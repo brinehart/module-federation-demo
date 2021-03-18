@@ -18,7 +18,7 @@ export class HomeComponent implements OnInit {
         Lockhart. Cloud eventually joins forces with many others to save the planet, which is threatened by Shinra
         and Cloud's nemesis Sephiroth, and discovers a reason to fight for a cause other than his own.`,
       link: 'vii',
-      image: 'https://res.cloudinary.com/rental-trail/image/upload/v1615995006/FFVII_logo_zmecp8.png'
+      image: 'https://res.cloudinary.com/brinehart/image/upload/v1615995006/FFVII_logo_zmecp8.png'
     },
     {
       name: 'Final Fantasy VIII',
@@ -31,7 +31,7 @@ export class HomeComponent implements OnInit {
       Different nations and factions in Final Fantasy VIII have their own flags, their designs based on the country/group's
       history and culture.`,
       link: 'viii',
-      image: 'https://res.cloudinary.com/rental-trail/image/upload/v1615995006/FFVIII_logo_ctkdix.png'
+      image: 'https://res.cloudinary.com/brinehart/image/upload/v1615995006/FFVIII_logo_ctkdix.png'
     }
   ];
 
