@@ -10,3 +10,24 @@ h1 {
   font-size: 3rem;
   color: #002a32;
 }
+
+.content {
+  padding: 16px;
+}
+
+.content > mat-card {
+  width: 200px;
+}
+
+mat-card {
+  height: 485px;
+  min-height: 485px;
+}
+
+mat-card-content {
+  height: 17vh;
+}
+
+mat-card-actions > button {
+  width: 100%;
+}

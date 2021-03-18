@@ -1,6 +1,6 @@
 <div class="content">
   <div fxLayout="row wrap" fxLayoutGap="16px grid">
-    <div fxLayout="column" fxFlex="20%" fxFlex.xs="100%" fxFlex.sm="33%" fxFlexOrder="3" fxFlexOrder.gt-sm="1">
+    <div class="col one" fxLayout="column" fxFlex="20%" fxFlex.xs="100%" fxFlex.sm="33%" fxFlexOrder="3" fxFlexOrder.gt-sm="1">
       <table *ngIf="selectedCharacter">
         <th colspan="2">Biographical Info</th>
         <tr>
@@ -72,11 +72,11 @@
         </tr>
       </table>
     </div>
-    <div fxLayout="column" fxFlex="50%" fxFlex.xs="100%" fxFlex.sm="33%" fxFlexOrder="1" fxFlexOrder.gt-sm="2">
+    <div class="col two" fxLayout="column" fxFlex="50%" fxFlex.xs="100%" fxFlex.sm="33%" fxFlexOrder="1" fxFlexOrder.gt-sm="2">
       <h1 class="character-name">{{selectedCharacter?.name}}</h1>
       <p>{{selectedCharacter?.description}}</p>
     </div>
-    <div fxLayout="column" fxFlex="30%" fxFlex.xs="100%" fxFlex.sm="33%" fxFlexOrder="2" fxFlexOrder.gt-sm="3">
+    <div class="col three" fxLayout="column" fxFlex="30%" fxFlex.xs="100%" fxFlex.sm="33%" fxFlexOrder="2" fxFlexOrder.gt-sm="3">
       <img class="character-img" [src]="selectedCharacter?.image" />
     </div>
   </div>

@@ -18,7 +18,7 @@
       },
       "root": "",
       "sourceRoot": "src",
-      "prefix": "ff",
+      "prefix": "vii",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:browser",

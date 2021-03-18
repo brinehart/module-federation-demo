@@ -4,7 +4,7 @@
 }
 
 .content {
-  padding-top: 4rem;
+  padding-top: 2rem;
 }
 
 th {
@@ -16,4 +16,25 @@ th {
 .character-img {
   object-fit: contain;
   max-height: 80vh;
+}
+
+.content > mat-card {
+  width: 200px;
+}
+
+mat-card {
+  height: 485px;
+  min-height: 485px;
+}
+
+mat-card-content {
+  height: 17vh;
+}
+
+mat-card-actions > button {
+  width: 100%;
+}
+
+.col.three {
+  margin-right: 0;
 }

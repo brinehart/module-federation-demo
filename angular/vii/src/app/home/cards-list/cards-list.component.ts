@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { Card } from '../home.types';
 
 @Component({
-  selector: 'ff-cards-list',
+  selector: 'vii-cards-list',
   templateUrl: './cards-list.component.html',
   styleUrls: ['./cards-list.component.scss']
 })

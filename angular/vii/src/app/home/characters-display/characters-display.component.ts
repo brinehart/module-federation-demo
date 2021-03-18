@@ -3,7 +3,7 @@ import { ActivatedRoute, ActivatedRouteSnapshot } from '@angular/router';
 import { Character } from '../home.types';
 
 @Component({
-  selector: 'ff-characters-display',
+  selector: 'vii-characters-display',
   templateUrl: './characters-display.component.html',
   styleUrls: ['./characters-display.component.scss']
 })
