@@ -1,0 +1,83 @@
+<div class="content">
+  <div fxLayout="row wrap" fxLayoutGap="16px grid">
+    <div fxLayout="column" fxFlex="20%" fxFlex.xs="100%" fxFlex.sm="33%" fxFlexOrder="3" fxFlexOrder.gt-sm="1">
+      <table *ngIf="selectedCharacter">
+        <th colspan="2">Biographical Info</th>
+        <tr>
+          <td><strong>Occupation</strong></td>
+          <td>{{selectedCharacter?.bioInfo?.occupation}}</td>
+        </tr>
+        <tr *ngIf="selectedCharacter?.bioInfo?.home">
+          <td><strong>Home</strong></td>
+          <td>{{selectedCharacter?.bioInfo?.home}}</td>
+        </tr>
+        <tr *ngIf="selectedCharacter?.bioInfo?.affiliation">
+          <td><strong>Affiliation</strong></td>
+          <td>{{selectedCharacter?.bioInfo?.affiliation}}</td>
+        </tr>
+        <th colspan="2">Physical description</th>
+        <tr *ngIf="selectedCharacter?.physicalDetails?.race">
+          <td><strong>Race</strong></td>
+          <td>{{selectedCharacter?.physicalDetails?.race}}</td>
+        </tr>
+        <tr *ngIf="selectedCharacter?.physicalDetails?.gender">
+          <td><strong>Gender</strong></td>
+          <td>{{selectedCharacter?.physicalDetails?.gender}}</td>
+        </tr>
+        <tr *ngIf="selectedCharacter?.physicalDetails?.height">
+          <td><strong>Height</strong></td>
+          <td>{{selectedCharacter?.physicalDetails?.height}}</td>
+        </tr>
+        <tr *ngIf="selectedCharacter?.physicalDetails?.hairColor">
+          <td><strong>Hair Color</strong></td>
+          <td>{{selectedCharacter?.physicalDetails?.hairColor}}</td>
+        </tr>
+        <tr *ngIf="selectedCharacter?.physicalDetails?.eyeColor">
+          <td><strong>Eye Color</strong></td>
+          <td>{{selectedCharacter?.physicalDetails?.eyeColor}}</td>
+        </tr>
+        <tr *ngIf="selectedCharacter?.physicalDetails?.bloodType">
+          <td><strong>Blood Type</strong></td>
+          <td>{{selectedCharacter?.physicalDetails?.bloodType}}</td>
+        </tr>
+        <tr *ngIf="selectedCharacter?.physicalDetails?.laterality">
+          <td><strong>Laterality</strong></td>
+          <td>{{selectedCharacter?.physicalDetails?.laterality}}</td>
+        </tr>
+        <th colspan="2">Gameplay Details</th>
+        <tr *ngIf="selectedCharacter?.type">
+          <td><strong>Type</strong></td>
+          <td>{{selectedCharacter?.type}}</td>
+        </tr>
+        <tr *ngIf="selectedCharacter?.ultimateLimitBreak">
+          <td><strong>Ultimate Limit Break</strong></td>
+          <td>{{selectedCharacter?.ultimateLimitBreak}}</td>
+        </tr>
+        <tr *ngIf="selectedCharacter?.weapon">
+          <td><strong>Weapon</strong></td>
+          <td>{{selectedCharacter?.weapon}}</td>
+        </tr>
+        <tr *ngIf="selectedCharacter?.weapon">
+          <td><strong>Ultimate Weapon</strong></td>
+          <td>{{selectedCharacter?.ultimateWeapon}}</td>
+        </tr>
+        <th colspan="2">Behind The Scenes Info</th>
+        <tr *ngIf="selectedCharacter?.creatorInfo?.designer">
+          <td><strong>Designer</strong></td>
+          <td>{{selectedCharacter?.creatorInfo?.designer}}</td>
+        </tr>
+        <tr *ngFor="let actor of selectedCharacter?.creatorInfo?.voiceActors">
+          <td><strong>{{actor?.language}} Voice Actor</strong></td>
+          <td>{{actor?.name}}</td>
+        </tr>
+      </table>
+    </div>
+    <div fxLayout="column" fxFlex="50%" fxFlex.xs="100%" fxFlex.sm="33%" fxFlexOrder="1" fxFlexOrder.gt-sm="2">
+      <h1 class="character-name">{{selectedCharacter?.name}}</h1>
+      <p>{{selectedCharacter?.description}}</p>
+    </div>
+    <div fxLayout="column" fxFlex="30%" fxFlex.xs="100%" fxFlex.sm="33%" fxFlexOrder="2" fxFlexOrder.gt-sm="3">
+      <img class="character-img" [src]="selectedCharacter?.image" />
+    </div>
+  </div>
+</div>

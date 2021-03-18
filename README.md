@@ -28,11 +28,12 @@ These steps can be switched by just changing your local development branch.
 
 NOTE: I'll call out in my talk when we are switching, but for your reference, here are the steps.
 
-| Step Name         | Branch      | Description                                                                      |
-| ----------------- | ----------- | -------------------------------------------------------------------------------- |
-| Angular Step 1    | `ng-step-1` | Initializing and setting up webpack module Federation in shell application.      |
-| Angular Step 2    | `ng-step-2` | Adding webpack module federation to the FF VII, FF VIII, and FF IX applications. |
-
+| Step Name            | Branch          | Description                                                                            |
+| -------------------- | --------------- | -------------------------------------------------------------------------------------- |
+| Angular Step 1       | `ng-step-1`     | Start setting up webpack module Federation in 2 Angular applications.                  |
+| Angular Step 1 End   | `ng-step-1-end` | Finish setting up webpack module Federation in 2 Angular applications.                 |
+| Angular Step 2       | `ng-step-2`     | Start Adding webpack module federation to the FF VII, FF VIII, and FF IX applications. |
+| Angular Step 2 End   | `ng-step-2-end` | End Adding webpack module federation to the FF VII, FF VIII, and FF IX applications.   |
 
 ### Credits and Further Reading
 - [The Microfrontend Revolution](https://www.angulararchitects.io/aktuelles/the-microfrontend-revolution-module-federation-in-webpack-5/)
