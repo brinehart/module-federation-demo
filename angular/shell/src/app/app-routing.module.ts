@@ -12,6 +12,7 @@ const routes: Routes = [
   {
     path: 'vii',
     loadChildren: () => loadRemoteModule({
+      remoteEntry: 'http://localhost:7000/remoteEntry.js',
       remoteName: 'vii',
       exposedModule: './Module'
     }).then(m => m.HomeModule)
@@ -19,6 +20,7 @@ const routes: Routes = [
   {
     path: 'viii',
     loadChildren: () => loadRemoteModule({
+      remoteEntry: 'http://localhost:8000/remoteEntry.js',
       remoteName: 'viii',
       exposedModule: './Module'
     }).then(m => m.HomeModule)
