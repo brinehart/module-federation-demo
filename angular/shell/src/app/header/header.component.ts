@@ -20,12 +20,8 @@ export class HeaderComponent implements OnInit {
     },
     {
       label: 'Final Fantasy VIII',
-      link: 'ff-viii'
+      link: 'viii'
     },
-    {
-      label: 'Final Fantasy IX',
-      link: 'ff-ix'
-    }
   ]
 
   constructor() { }

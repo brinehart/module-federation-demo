@@ -1,8 +1,5 @@
 <mat-toolbar color="primary">
-  <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
-    <mat-icon>menu</mat-icon>
-  </button>
-  <img src="https://res.cloudinary.com/brinehart/image/upload/v1615995011/FF_PSX_Ref_Guide_logo_light_bwn12k.png" [alt]="siteTitle" height="55"/>
+  <img src="https://res.cloudinary.com/brinehart/image/upload/v1615995011/FF_PSX_Ref_Guide_logo_light_bwn12k.png" [alt]="siteTitle" height="55" routerLink="/"/>
   <span class="example-spacer"></span>
   <span class="d-none d-md-inline">
     <button mat-button class="nav-button" *ngFor="let item of navigation" [routerLink]="[item.link]"

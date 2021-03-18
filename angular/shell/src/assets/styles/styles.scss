@@ -37,3 +37,28 @@ $shell-theme: mat-light-theme((
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+body {
+  margin: 0!important;
+}
+
+.content {
+  padding: 16px;
+}
+
+.content > mat-card {
+  width: 200px;
+}
+
+mat-card {
+  height: 485px;
+  min-height: 485px;
+}
+
+mat-card-content {
+  height: 17vh;
+}
+
+mat-card-actions > button {
+  width: 100%;
+}
