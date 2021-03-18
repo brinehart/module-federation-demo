@@ -32,11 +32,15 @@ NOTE: I'll call out in my talk when we are switching, but for your reference, he
 | -------------------- | --------------- | -------------------------------------------------------------------------------------- |
 | Angular Step 1       | `ng-step-1`     | Start setting up webpack module Federation in 2 Angular applications.                  |
 | Angular Step 1 End   | `ng-step-1-end` | Finish setting up webpack module Federation in 2 Angular applications.                 |
-| Angular Step 2       | `ng-step-2`     | Start Adding webpack module federation to the FF VII, FF VIII, and FF IX applications. |
-| Angular Step 2 End   | `ng-step-2-end` | End Adding webpack module federation to the FF VII, FF VIII, and FF IX applications.   |
+| Angular Step 2       | `ng-step-2`     | Start switching module federation to be dynamic.                                       |
+| Angular Step 2 End   | `ng-step-2-end` | Finish switching module federation to be dynamic.                                      |
+
+## Guides
+I have endeavored to put together some cheat sheets for you to follow along with. Below you will find a list of 
 
 ### Credits and Further Reading
 - [The Microfrontend Revolution](https://www.angulararchitects.io/aktuelles/the-microfrontend-revolution-module-federation-in-webpack-5/)
 - [Webpack 5 Module Federation Official Docs](https://webpack.js.org/concepts/module-federation/)
 - [Module Federation Learning Site](https://module-federation.github.io/)
 - [Final Fantasy Wiki (assets and text)](https://finalfantasy.fandom.com/wiki/Final_Fantasy_Wiki)
+- [Module Federation Examples Github](https://github.com/module-federation/module-federation-examples)
