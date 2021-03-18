@@ -12,154 +12,150 @@ export class CharactersDisplayComponent implements OnInit {
   columnsToDisplay = ['key', 'value'];
   characters: Character[] = [
     {
-      id: 'cloud',
-      name: 'Cloud Strife',
+      id: 'squall',
+      name: 'Squall Leonhart',
       description: `
-        Cloud Strife is the main protagonist in Final Fantasy VII, Final Fantasy VII Remake, and Final Fantasy VII: Advent Children. He also appears in the spin-off games of the Compilation of Final Fantasy VII as a supporting character, including Dirge of Cerberus -Final Fantasy VII- and Crisis Core -Final Fantasy VII-.
+      Squall Leonhart is the main protagonist of Final Fantasy VIII. A young and aloof SeeD mercenary, others view him as cold and focused until he begins to question the way he has chosen to live his life. Squall's weapon, the gunblade, is one of the iconic weapons of the Final Fantasy series. Squall is later given the title Commander (委員長, Iinchō?, lit. Chairman).
 
-        An arrogant and proud swordsman at first, Cloud introduces himself to Avalanche as a former member of an elite warrior unit called SOLDIER who has turned mercenary, and uninterested in anything beyond his hired task at hand. Beneath his hardened outer persona is a softer, more caring individual who simply struggles to open up, but is striving to be a hero. Cloud later discovers more about his past and, with the help of his friends, learns there is more to being a hero than possessing physical strength and fame. He develops compassion for the planet and the people he fights to protect from the Shinra Electric Power Company and his nemesis, Sephiroth.
-
-        Cloud Strife wields large broadswords in battle, including the iconic Buster Sword, and is a versatile melee combatant. In Final Fantasy VII, he has access to the most powerful weapons in the game, as well as the strongest Limit abilities (all of which involve his sword), though they take the longest to learn.
+      Squall idolizes the mythical winged lion Griever, holding it as an ideal of courage and strength, traits he wishes to possess himself. The lion has come to be his symbol, the same way Rinoa is associated with angel wings.
       `,
-      image: 'https://res.cloudinary.com/brinehart/image/upload/h_600/v1616035907/cloud_strife_profile.png',
+      image: 'https://res.cloudinary.com/brinehart/image/upload/h_600/v1616035907/squall_profile.png',
       bioInfo: {
-        occupation: 'Mercenary(Former Shinra Infantryman), Courier',
-        home: 'Nibelheim',
-        affiliation: 'Shinra Electric Power Company / Avalanche',
+        occupation: 'Mercenary',
+        home: 'Balamb Garden',
+        affiliation: 'SeeD',
       },
       physicalDetails: {
         gender: 'Male',
         height: `173 cm (5'8")`,
         race: 'Human',
-        hairColor: 'Blond',
+        hairColor: 'Brown',
         eyeColor: 'Blue',
         bloodType: 'AB',
-        laterality: 'Right-Handed',
       },
       type: 'Player Character',
-      ultimateLimitBreak: 'Omnislash',
-      weapon: 'Broadswords',
-      ultimateWeapon: 'Ultimate Weapon',
+      ultimateLimitBreak: 'Renzokuken',
+      weapon: 'Gunblade',
+      ultimateWeapon: 'Lion Heart',
       creatorInfo: {
         designer: 'Tetsuya Nomura',
         voiceActors: [
           {
-            name: 'Takahiro Sakurai',
+            name: 'Hideo Ishikawa',
             language: 'Japanese'
           },
           {
-            name: 'Steve Burton',
+            name: 'Doug Erholtz',
             language: 'English'
           },
         ]
       }
     },
     {
-      id: 'barret',
-      name: 'Barret Wallace',
+      id: 'rinoa',
+      name: 'Rinoa Heartilly',
       description: `
-        Barret Wallace is a playable character in Final Fantasy VII and Final Fantasy VII Remake, and a major recurring character in the Compilation of Final Fantasy VII. He is the leader of a cell of the eco-terrorist group Avalanche, trying to prevent Shinra Electric Power Company from using mako, the life source of the planet, as a form of energy.
+        Rinoa Heartilly is a playable character in Final Fantasy VIII. She wields a unique weapon called the blaster edge in battle, a bladed projectile she launches from a firing mechanism on her left arm. After hitting the target, the projectile returns to Rinoa like a boomerang. Rinoa's faithful dog, Angelo, accompanies her in battle by attacking the enemy or aiding the party.
 
-        Barret fights passionately for his cause to protect the planet. He cares greatly for his allies, motivating them with powerful speeches, while also himself fighting on the front lines of his cell's operations. His seemingly benevolent cause of fighting for the planet is a cover for his personal vendetta and anger, which he later must come to terms with. Despite his brash and sometimes violent attitude, Barret has a good heart, and is torn between fighting and caring for his daughter, Marlene.
-
-        Barret wields a gun-arm, a mechanical gun grafted in place of his right arm, allowing him to fire from range. His Limit Break abilities largely consist of physical attacks with these weapons. Barret has high HP, allowing him to fill the role of taking damage from other party members.
+        Rinoa is known for her trademark angel wings printed on the back of her duster sweater and, as such, her "character symbol" is a white feather that signifies the wings. She is Squall Leonhart's love interest and is featured in the game's logo with him. Apart from the angel wings symbol and her ring, shooting stars have a significance to Rinoa. She points at a shooting star during her introductory scene, her most potent weapon is Shooting Star, and her ultimate Limit Breaks is called Wishing Star.
       `,
-      image: 'https://res.cloudinary.com/brinehart/image/upload/h_600/v1616038737/barret_wallace_profile.png',
+      image: 'https://res.cloudinary.com/brinehart/image/upload/h_600/v1616038737/rinoa_profile.png',
       bioInfo: {
-        occupation: 'Leader in Avalanche',
-        home: 'Corel',
-        affiliation: 'Avalanche',
+        occupation: 'Strategist',
+        home: 'Deling City; Timber',
+        affiliation: 'Forest Owls',
+      },
+      physicalDetails: {
+        race: 'Human',
+        gender: 'Female',
+        height: `161 cm (5'3")`,
+        hairColor: 'Black with caramel streaks',
+        eyeColor: 'Dark Brown',
+        bloodType: 'Unknown',
+      },
+      type: 'Player Character',
+      ultimateLimitBreak: 'Combine, Angel Wing',
+      weapon: 'Blaster Edge',
+      ultimateWeapon: 'Shooting Star',
+      creatorInfo: {
+        designer: 'Tetsuya Nomura',
+        voiceActors: [
+          {
+            name: 'Kana Hanazawa',
+            language: 'Japanese'
+          },
+          {
+            name: 'Skyler Davenport',
+            language: 'English'
+          },
+        ]
+      }
+    },
+    {
+      id: 'quistis',
+      name: 'Quistis Trepe',
+      description: `
+        Quistis Trepe is a playable character in Final Fantasy VIII. She is a child prodigy and Blue Mage, and Instructor No. 14 at Balamb Garden. Her fans are referred as "Trepies" after her fan club.
+
+        Quistis wears a salmon zipped vest, with a gold-rimmed fold-over collar, that is zipped just below the ribcage exposing her midriff. She wears brown arm warmers and brown gloves, a long salmon skirt with a silver waistband, black pants, a brown belt and brown shoes. She has blue eyes and wears her blond hair tied up held with a silver comb accessory, and has two long fringes framing her face. As an instructor in Balamb Garden she wears her SeeD uniform and a pair of silver-rimmed glasses.
+
+        Quistis is known as a child prodigy around Balamb Garden. At the age of 15 she became a SeeD, and now at 18 is the youngest instructor in the Garden. She is less strict than the other instructors, leading some of her students to not take her seriously and to treat her with disrespect. Quistis tries to maintain her calm and due to her quiet assertiveness, stoic nature, and restraint, she mulls over her worries alone, kept at a distance from her pupils by her rank.
+        `,
+      image: 'https://res.cloudinary.com/brinehart/image/upload/h_600/v1616039204/quistis_profile.png',
+      bioInfo: {
+        occupation: 'Mercenary, Instructor',
+        home: 'Balamb Garden',
+        affiliation: 'SeeD',
+      },
+      physicalDetails: {
+        gender: 'Female',
+        height: `168 cm (5'6")`,
+        race: 'Human',
+        hairColor: 'Blonde',
+        eyeColor: 'Blue',
+        bloodType: 'A',
+      },
+      type: 'Player Character',
+      ultimateLimitBreak: 'Blue Magic',
+      weapon: 'Whip',
+      ultimateWeapon: 'Save the Queen',
+      creatorInfo: {
+        designer: 'Tetsuya Nomura',
+        voiceActors: [
+          {
+            name: 'Miyuki Sawashiro',
+            language: 'Japanese'
+          },
+          {
+            name: 'Kristina Pesic',
+            language: 'English'
+          },
+        ]
+      }
+    },
+    {
+      id: 'zell',
+      name: 'Zell Dincht',
+      description: `
+        Zell Dincht is a playable character in Final Fantasy VIII. His loud and energetic personality is a foil to Squall's cold silence. Zell is a master of hand-to-hand combat and prefers to let his fists guide him out of situations his mouth cannot.
+
+        Zell is short and has uniquely styled spiky blond hair and blue eyes. He wears a black vest with a red decor along the zipper, a black beater, baggy denim shorts, and black and red tennis shoes. While in Garden he at times wears the SeeD uniform or the SeeD cadet uniform, though he wears it with the sleeves rolled up and the jacket halfway unzipped, revealing a white t-shirt underneath. He has a black tribal tattoo on the left side of his face. The only time Zell doesn't wear his gloves is during the SeeD inauguration ball.
+
+        Zell is the shortest of the three playable male characters. In the original release Quistis is taller than him, but in Final Fantasy VIII Remastered, his character model is now taller than hers.
+      `,
+      image: 'https://res.cloudinary.com/brinehart/image/upload/h_600/v1616039850/zell_profile.png',
+      bioInfo: {
+        occupation: 'Mercenary',
+        home: 'Balamb',
+        affiliation: 'SeeD',
       },
       physicalDetails: {
         race: 'Human',
         gender: 'Male',
-        height: `197 cm (6'6")`,
-        hairColor: 'Black',
-        eyeColor: 'Brown',
-        bloodType: 'O',
-      },
-      type: 'Player Character',
-      ultimateLimitBreak: 'Catastrophe',
-      weapon: 'Gun-arms',
-      ultimateWeapon: 'Missing Score',
-      creatorInfo: {
-        designer: 'Tetsuya Nomura',
-        voiceActors: [
-          {
-            name: 'Masahiro Kobayashi',
-            language: 'Japanese'
-          },
-          {
-            name: 'Beau Billingslea',
-            language: 'English'
-          },
-        ]
-      }
-    },
-    {
-      id: 'tifa',
-      name: 'Tifa Lockhart',
-      description: `
-        Tifa Lockhart is a playable character in Final Fantasy VII and Final Fantasy VII Remake, She also plays a supportive role in Final Fantasy VII: Advent Children, Dirge of Cerberus -Final Fantasy VII- and Crisis Core -Final Fantasy VII-. She is a friend of Cloud Strife, and a member of the resistance group Avalanche.
-
-        Tifa grew up with Cloud in Nibelheim, but lost contact with him years ago. When she meets him again, she convinces him to join Avalanche to fight the Shinra Electric Power Company, whom she bears hatred for due to the destruction of their hometown. She supports Cloud as his comrade and helps him and his allies fight Sephiroth. Tifa is reserved and empathic, acting as a motherly figure towards her allies when providing encouragement and emotional support. She also serves as the voice of reason grounding them to think things through and do the right thing.
-
-        In contrast to her shy personality, Tifa has a vigorous combat style, fighting with her fists. Trained by Zangan, she uses martial arts skills to fight opponents up close, and equips knuckles as her weapons. In the original Final Fantasy VII, unlike other characters, her Limit abilities, each a different martial arts technique, are not selected from a list, rather, each ability can be used consecutively if the slots land on the "Yeah!" reel for the ability. Tifa has a similar role in Final Fantasy VII Remake as an agile close combat fighter making use of powerful techniques in battle, with a unique ability based on her Unbridled Strength chi level.
-      `,
-      image: 'https://res.cloudinary.com/brinehart/image/upload/h_600/v1616039204/tifa_lockhart_profile.png',
-      bioInfo: {
-        occupation: 'Bar hostess, Avalanche member',
-        home: 'Nibelheim',
-        affiliation: 'Avalanche',
-      },
-      physicalDetails: {
-        gender: 'Female',
-        height: `167 cm (5'6")`,
-        race: 'Human',
-        hairColor: 'Brown',
-        eyeColor: 'Brown',
+        height: `165 cm (5'5")`,
+        hairColor: 'Blonde',
+        eyeColor: 'Blue',
         bloodType: 'B',
-      },
-      type: 'Player Character',
-      ultimateLimitBreak: 'Final Heaven',
-      weapon: 'Knuckles',
-      ultimateWeapon: 'Premium Heart',
-      creatorInfo: {
-        designer: 'Tetsuya Nomura',
-        voiceActors: [
-          {
-            name: 'Ayumi Ito',
-            language: 'Japanese'
-          },
-          {
-            name: 'Rachael Leigh Cook',
-            language: 'English'
-          },
-        ]
-      }
-    },
-    {
-      id: 'aerith',
-      name: 'Aerith Gainsborough',
-      description: `
-        Aerith Gainsborough, alternately known with the first name Aeris, is a playable character in Final Fantasy VII and Final Fantasy VII Remake. She is a major character in the Compilation of Final Fantasy VII, appearing in Final Fantasy VII: Advent Children, Crisis Core -Final Fantasy VII- and Before Crisis -Final Fantasy VII-.
-
-        Aerith is the last of the Cetra, an ancient race with powerful magical abilities, and so the Shinra Electric Power Company hunts her throughout her life, seeking to exploit her powers. She meets Cloud Strife in Midgar, and the two become close, leading her to join his quest to fight Shinra and hunt down Sephiroth. Aerith is upbeat, carefree, and joyful, being flirtatious towards Cloud and compassionate towards others.
-
-        Aerith wields staves in battle, and is in the back row by default, as she primarily uses magic from equipped Materia in battle. Her Limit abilities are defensive, either providing restorative powers, healing other party members, or bestowing status enhancements.
-      `,
-      image: 'https://res.cloudinary.com/brinehart/image/upload/h_600/v1616039850/aerith_gainsborough_profile.png',
-      bioInfo: {
-        occupation: 'Flower Merchant',
-        home: 'Icicle Inn',
-      },
-      physicalDetails: {
-        gender: 'Female',
-        height: `163 cm (5'4")`,
-        race: 'Half-Cetra/Human',
-        hairColor: 'Brown',
-        eyeColor: 'Green',
-        bloodType: 'O',
       },
       type: 'Player Character',
       ultimateLimitBreak: 'Great Gospel',
@@ -169,243 +165,84 @@ export class CharactersDisplayComponent implements OnInit {
         designer: 'Tetsuya Nomura',
         voiceActors: [
           {
-            name: 'Maaya Sakamoto',
+            name: 'Tetsuya Nomura',
             language: 'Japanese'
           },
           {
-            name: 'Briana White',
+            name: 'Masakazu Morita',
             language: 'English'
           },
         ]
       }
     },
     {
-      id: 'red-xiii',
-      name: 'Red XIII',
+      id: 'selphie',
+      name: 'Selphie Tilmitt',
       description: `
-      Red XIII, real name Nanaki, is a red lion or wolf-like beast and one of the playable characters in Final Fantasy VII. He also appears in other entries of the Final Fantasy VII series. He is a guest in Final Fantasy VII Remake. Red XIII is the only quadrupedal playable character in the main Final Fantasy series so far.
-
-      Red XIII is the name he received as a specimen designation while held captive and experimented upon by Professor Hojo, and remains the name he is called by the party and in battle in Final Fantasy VII. Although he is 48 years old, he is developmentally equivalent to a 15- or 16-year-old human by his long-lived species' standards. He fights alongside Cloud Strife and his allies to fulfill his duty to the planet to defend it as a warrior.
-
-      Red XIII uses headdresses to enhance his damage. His earlier Limit abilities augment his stats by adding positive status effects, but his later abilities deal physical attacks to enemies based on his own damage.
+        Selphie Tilmitt is a playable character in Final Fantasy VIII. She is an active, outspoken and energetic girl who participates in many extracurricular activities, such as planning the Garden Festival and running a school website. She is clumsy, but despite this wields an oversized nunchaku in battle and pilots the Ragnarok airship. The player can read her website that gets updated throughout the game on the Balamb Garden Study Panel.
+        Selphie most often wears a yellow overall dress with a clip at the front, a frontal zipper that travels the full length of the dress and two large back pockets. She wears a silver pendant, a blue strap on her left wrist and brown boots that reach mid-calf. As a cadet, Selphie wears the standard Balamb Garden uniform with knee-high socks and shoes. At the graduation ball after passing the SeeD exams, she wears the standard SeeD uniform with black knee high boots.
       `,
-      image: 'https://res.cloudinary.com/brinehart/image/upload/c_scale,w_414/v1616038343/red_xiii_profile.png',
+      image: 'https://res.cloudinary.com/brinehart/image/upload/c_scale,w_414/v1616038343/selphie_profile.png',
       bioInfo: {
-        occupation: 'Beast, Research Specimen',
-        home: 'Cosmo Canyon',
+        occupation: 'Mercenary',
+        home: 'Trabia Garden',
+        affiliation: 'SeeD',
       },
       physicalDetails: {
-        gender: 'Male',
-        height: `120 cm (3'9")`,
-        race: `Red XIII's Species`,
-      },
-      type: 'Player Character',
-      ultimateLimitBreak: 'Cosmo Memory',
-      weapon: 'Headdresses',
-      ultimateWeapon: 'Limited Moon',
-      creatorInfo: {
-        designer: 'Tetsuya Nomura',
-        voiceActors: [
-          {
-            name: 'Kappei Yamaguchi',
-            language: 'Japanese'
-          },
-          {
-            name: 'Max Mittelman',
-            language: 'English'
-          },
-        ]
-      }
-    },
-    {
-      id: 'cait-sith',
-      name: 'Cait Sith',
-      description: `
-        Cait Sith is a playable character in Final Fantasy VII and Dirge of Cerberus -Final Fantasy VII-, also appearing in Crisis Core -Final Fantasy VII- as a summon, and in a small role in Before Crisis -Final Fantasy VII- and Final Fantasy VII: Advent Children. He is a cat riding a giant stuffed toy moogle, initially working as a fortune-teller in the Gold Saucer. Cait Sith's character and motives for joining Cloud's party are initially a mystery.
-
-        Cait Sith uses megaphones to give orders to his moogle. Unlike most characters, Cait Sith only has two Limit abilities: Dice and Slots. Dice throws a number of dice down (based on his level), and deals damage depending on the result. Slots can have a variety of effects based on the result of a slot reel that either boost allies' power or damage enemies, in which the best combination kills all enemies instantly (even those with immunity to Instant Death spells), while the worst will kill all allies ending in a Game Over.
-
-        Cait Sith makes a cameo in Final Fantasy VII Remake and is expected to appear in the future parts of the project.
-      `,
-      image: 'https://res.cloudinary.com/brinehart/image/upload/c_scale,w_300/v1616014427/cait_sith_profile.png',
-      bioInfo: {
-        occupation: 'Toysaurus, Spy'
-      },
-      physicalDetails: {
-        gender: 'Unknown',
-        height: `100 cm (3'4")`
-      },
-      type: 'Player Character',
-      ultimateLimitBreak: 'Slots',
-      weapon: 'Megaphones',
-      ultimateWeapon: 'HP Shout',
-      creatorInfo: {
-        designer: 'Tetsuya Nomura',
-        voiceActors: [
-          {
-            name: 'Hideo Ishikawa',
-            language: 'Japanese'
-          },
-          {
-            name: 'Greg Ellis',
-            language: 'English'
-          },
-        ]
-      }
-    },
-    {
-      id: 'cid',
-      name: 'Cid Highwind',
-      description: `
-        Cid Highwind is a playable character in Final Fantasy VII who also appears in the titles of the Compilation of Final Fantasy VII. He is part of a long tradition of Final Fantasy characters named Cid, and owns an airship, the Highwind.
-
-        Cid is a former mechanical scientist who has an unfulfilled dream of sending a rocket to space. Cid mistrusts the Shinra Electric Power Company, and when one of its executives attempt to steal his plane, the Tiny Bronco, he joins Cloud and his allies to fight Shinra. Cid is the most uncouth of the protagonists: he swears, is short-tempered, and chain-smokes cigarettes. However, he has a good heart, and is voted as a temporary party leader during Cloud and Tifa's absence.
-
-        Cid wields spears in battle, and his Limit abilities make use of him jumping and landing on enemies with his spear to hit multiple enemies, or hit enemies multiple times, potentially dealing devastating damage.
-      `,
-      image: 'https://res.cloudinary.com/brinehart/image/upload/h_600/v1616040821/cid_highwind_profile.png',
-      bioInfo: {
-        home: 'Rocket Town',
-        occupation: 'Pilot, Airship Captain'
-      },
-      physicalDetails: {
-        race: 'Human',
-        gender: 'Male',
-        height: `178 cm (5'10")`,
-        bloodType: 'B'
-      },
-      type: 'Player Character',
-      ultimateLimitBreak: 'Highwind',
-      weapon: 'Spears',
-      ultimateWeapon: 'Venus Gospel',
-      creatorInfo: {
-        designer: 'Tetsuya Nomura',
-        voiceActors: [
-          {
-            name: 'Kazuhiro Yamaji',
-            language: 'Japanese'
-          },
-          {
-            name: 'Chris Edgerly',
-            language: 'English'
-          },
-        ]
-      }
-    },
-    {
-      id: 'yuffie',
-      name: 'Yuffie Kisaragi',
-      description: `
-        Yuffie Kisaragi is an optional playable character in Final Fantasy VII, and the main playable character of an additional episode introduced in Final Fantasy VII Remake Intergrade. She is a Ninja and a Thief, wielding a large shuriken.
-
-        Yuffie is a Materia hunter encountered in various forests on the Planet. As a rebellious and cocky tomboy, she desires to restore her homeland Wutai to the glorious nation it was before being conquered by the Shinra Electric Power Company. Despite her obnoxious personality, Yuffie is friendly, helpful, optimistic and willingly helps the party in their battles.
-
-        Yuffie is one of two optional characters along with Vincent Valentine. As such, she has almost no impact on the game's main storyline, but there are some changes made to various scenes if she is recruited. She can join after being discovered in various forests after the events at the Mythril Mine, encountered as the Mystery Ninja. She wields shurikens in battle for ranged attacks, and her Limits usually involve her hitting multiple enemies at once.
-      `,
-      image: 'https://res.cloudinary.com/brinehart/image/upload/h_600/v1616040821/yuffie_kisaragi_profile.png',
-      bioInfo: {
-        home: 'Wutai',
-        occupation: 'Materia Hunter, Ninja'
-      },
-      physicalDetails: {
-        race: 'Human',
         gender: 'Female',
-        height: `160 cm (5'2")`,
-        bloodType: 'A'
+        height: `156 cm (5'1")`,
+        race: `Human`,
       },
-      type: 'Optional Player Character',
-      ultimateLimitBreak: 'All Creation',
-      weapon: 'Shuriken',
-      ultimateWeapon: 'Conformer',
+      type: 'Player Character',
+      ultimateLimitBreak: 'Slot',
+      weapon: 'Nunchaku',
+      ultimateWeapon: 'Strange Vision',
       creatorInfo: {
         designer: 'Tetsuya Nomura',
         voiceActors: [
           {
-            name: 'Yumi Kakazu',
+            name: 'Mayuko Aoki',
             language: 'Japanese'
           },
           {
-            name: 'Mae Whitman',
+            name: 'Molly Marlette',
             language: 'English'
           },
         ]
       }
     },
     {
-      id: 'vincent',
-      name: 'Vincent Valentine',
+      id: 'irvine',
+      name: 'Irvine Kinneas',
       description: `
-      Vincent Valentine is an optional playable character in Final Fantasy VII, and the main protagonist of Dirge of Cerberus -Final Fantasy VII-. A former Turk with a mysterious past, Vincent's secrets tie him directly to several of the Final Fantasy VII series's main antagonists.
+        Irvine Kinneas is a playable character in Final Fantasy VIII. An expert gunman known as the "best shooter in Garden", he is a consummate ladies' man whose reputation for cherishing the company of women is almost as well known as his accuracy with the gun. He is the last permanent member to join.
 
-      Vincent wields handguns in battle. His Limit Breaks cause him to shapeshift as a result of the experiments Professor Hojo performed on him. When he transforms, his stats increase and he gains new powerful attacks, but becomes uncontrollable until the battle ends or until he falls into Death status.
+        Irvine wears his long brown hair in a ponytail and has blue eyes. He has a black cowboy hat, a purple vest, a long khaki-colored jacket, black fingerless gloves and brown chaps over black trousers with black boots. He wears gray earrings and a red and yellow beaded necklace.
+
+        During the time the player takes control of Irvine at Fishermans Horizon, he's questioned by one of the locals as to why he keeps company with "warmongers". Irvine retorts he doesn't enjoy being a lone sniper, that he's felt alone all of his life in his battles against pressure, that he considers the team his saviors from loneliness and calls them comrades. This provides a rare insight on Irvine's views about life and friends.
       `,
-      image: 'https://res.cloudinary.com/brinehart/image/upload/h_600/v1616040821/vincent_valentine_profile.png',
+      image: 'https://res.cloudinary.com/brinehart/image/upload/h_600/v1616040821/irvine_profile.png',
       bioInfo: {
-        occupation: 'Vampire?'
+        home: 'Galbadia Garden',
+        occupation: 'Mercenary, sniper',
+        affiliation: "SeeD"
       },
       physicalDetails: {
         race: 'Human',
         gender: 'Male',
-        height: `184 cm (6'0")`,
-        bloodType: 'A'
+        height: `183 cm (6'0")`,
+        bloodType: 'A',
+        hairColor: 'Ginger',
+        eyeColor: 'Blue',
       },
-      type: 'Optional Player Character',
-      ultimateLimitBreak: 'Chaos',
-      weapon: 'Guns',
-      ultimateWeapon: 'Death Penalty',
+      type: 'Player Character',
+      ultimateLimitBreak: 'Shot',
+      weapon: 'Shotgun',
+      ultimateWeapon: 'Exeter',
       creatorInfo: {
         designer: 'Tetsuya Nomura',
-        voiceActors: [
-          {
-            name: 'Kazuhiro Nakata',
-            language: 'Japanese'
-          },
-          {
-            name: 'Steve Blum',
-            language: 'English'
-          },
-        ]
       }
-    },
-    {
-      id: 'sephiroth',
-      name: 'Sephiroth',
-      description: `
-        Sephiroth is the main antagonist of Final Fantasy VII and Final Fantasy VII Remake and one of the major antagonists in its extended universe. In spin-off appearances, Sephiroth is depicted as Cloud Strife's archenemy and is seen as a symbol of Cloud's troubled past that haunts him. Sephiroth is a former renowned SOLDIER who became twisted.
-
-        Before his fall from grace, Sephiroth was one of the most lauded success stories of the Shinra Electric Power Company's SOLDIER program. His successes in the field of battle during the conflicts surrounding Shinra's bid for global domination led to his status as a celebrity war hero and the poster boy for both the Shinra Military and the company's SOLDIER program. Learning of his true origins drove him insane, causing him to be driven by a desire to destroy the world.
-
-        Sephiroth is briefly a party member during a flashback in the original Final Fantasy VII, and is both the penultimate and final boss.
-      `,
-      image: 'https://res.cloudinary.com/brinehart/image/upload/h_600/v1616040821/sephiroth_profile.png',
-      bioInfo: {
-        occupation: 'SOLDIER 1st Class',
-        home: 'Nibelheim'
-      },
-      physicalDetails: {
-        race: 'Human',
-        gender: 'Male',
-        height: `185 cm (6'1")`,
-        hairColor: 'Silver',
-        eyeColor: 'Green',
-        laterality: 'Left-Handed',
-      },
-      type: 'Guest Character',
-      weapon: 'Masamune',
-      creatorInfo: {
-        designer: 'Tetsuya Nomura',
-        voiceActors: [
-          {
-            name: 'Toshiyuki Morikawa',
-            language: 'Japanese'
-          },
-          {
-            name: 'Tyler Hoechlin',
-            language: 'English'
-          },
-        ]
-      }
-    },
+    }
   ];
   constructor(private route: ActivatedRoute) { }
 

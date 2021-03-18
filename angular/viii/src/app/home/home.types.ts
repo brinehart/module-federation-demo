@@ -32,7 +32,7 @@ export interface Character {
   ultimateWeapon?: string;
   creatorInfo: {
     designer: string;
-    voiceActors: VoiceActor[];
+    voiceActors?: VoiceActor[];
   };
 }
 
