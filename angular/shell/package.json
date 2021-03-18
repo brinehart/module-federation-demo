@@ -10,7 +10,11 @@
     "e2e": "ng e2e"
   },
   "private": true,
+  "resolutions": {
+    "webpack": "^5.0.0"
+  },
   "dependencies": {
+    "@angular-architects/module-federation": "1.2.3",
     "@angular/animations": "~11.2.5",
     "@angular/cdk": "11.2.4",
     "@angular/common": "~11.2.5",

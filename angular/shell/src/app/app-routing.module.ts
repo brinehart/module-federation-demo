@@ -8,6 +8,10 @@ const routes: Routes = [
     component: HomeComponent,
     pathMatch: 'full'
   },
+  {
+    path: 'vii',
+    loadChildren: () => import('vii/Module').then(m => m.HomeModule)
+  }
 ];
 
 @NgModule({
