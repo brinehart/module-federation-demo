@@ -7,16 +7,23 @@ import { CardsListComponent } from './cards-list/cards-list.component';
 
 const routes: Routes = [
   {
-    path: 'characters/:id',
-    component: CharactersDisplayComponent
-  },
-  {
-    path: 'characters',
-    component: CharactersListComponent
-  },
-  {
     path: '',
-    component: CardsListComponent,
+    component: HomeComponent,
+    children: [
+      {
+        path: 'characters/:id',
+        component: CharactersDisplayComponent
+      },
+      {
+        path: 'characters',
+        component: CharactersListComponent
+      },
+      {
+        path: '',
+        pathMatch: 'full',
+        component: CardsListComponent
+      }
+    ]
   }
 ];
 
